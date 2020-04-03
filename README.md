@@ -2,6 +2,8 @@
 
 A simple Flask API for predicting whether a person could be a Parkinson's patient or not based on some basic drawings of random shapes that he / she has drawn.
 
+Deployed at: https://rest-api-parkinsons.onrender.com/
+
 ## 🚀 Installation
 
 Just clone the repository and run the following command in a virtual environment:
