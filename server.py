@@ -20,7 +20,7 @@ def predict_from_model(file):
     # load the image and predict
     image = open_image(file)
     pred = model.predict(image)
-
+    print(str(pred[0]))
     # separate the tensors and the labels
     return jsonify({ "label": str(pred[0]), "tensor": str(pred[2]) })
 
